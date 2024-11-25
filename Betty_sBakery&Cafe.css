@@ -1,0 +1,172 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .navbar-nav {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #333;
+  }
+
+  .navbar-nav.show {
+      display: flex;
+  }
+
+  .nav-item {
+      text-align: center;
+  }
+
+  .nav-link {
+      color: white !important;
+      text-decoration: none;
+      padding: 8px 16px;
+      display: block;
+  }
+
+  .nav-link:hover {
+      background-color: #575757;
+      border-radius: 4px;
+  }
+}
+
+.quantitycss{
+    border: 2px solid rgb(255, 196, 0); 
+    border-radius: 5px; 
+    
+    margin-right: 10px;
+}
+
+
+.quantitycss input:focus {
+    border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
+
+.input-group-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.border-highlight{
+    
+    border: 4px dashed rgb(254, 165, 0);   
+    padding:0.2em 1.2em;
+    display: inline-block; 
+    text-align: center;
+  }
+
+
+  /*rate*/
+
+.rating {
+  width: 340px;
+  background: rgba(233, 180, 7, 0.73);
+  margin-bottom: 5px;
+  border: 1px solid rgba(233, 180, 7, 0.73);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.rating input {
+  display: none;
+}
+.rating label {
+  padding: 10px;
+  font-size: 40px;
+  color: yellow;
+  cursor: pointer;
+}
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked ~ label {
+  color: yellow;
+}
+
+
+
+
+
+.rating label:hover:before,
+.rating label:hover ~ label:before,
+.rating input:checked ~ label:before {
+  content: '\f005';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+
+.mobileShow {
+   display: none;
+  }
+
+   /*phone Portrait and Landscape */
+   @media only screen
+   and (min-device-width : 320px)
+   and (max-device-width : 480px){
+     .mobileShow { display: inline;}
+  }
+
+   .mobileHide {
+     display: inline;
+    }
+
+
+   /*phone Portrait and Landscape */
+   @media only screen
+   and (min-device-width : 320px)
+   and (max-device-width : 480px){ 
+     .mobileHide { display: none;}
+  }
+
+  .mobileHide {
+     display: inline;
+    }
+   /* Smartphone Portrait and Landscape */
+   @media only screen
+   and (min-device-width : 320px)
+   and (max-device-width : 480px){
+      .mobileHide {
+         display: none;
+      }
+    }
+
+
+    .selectOrder {
+      position: relative;
+      display: inline-block;
+  }
+
+ 
+
+
+  .selectOrder {
+      padding: 12px 12px;
+      display: block;
+  }
+
+  .selectOrder {
+      background-color: #ffc10789;
+      color: #ffc107;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: #ffc107;
+  }
+
+  .quantityphone{
+    border: 2px solid rgb(255, 196, 0); 
+    border-radius: 5px; 
+    
+    margin-right: 10px;
+}
+
+
+.quantityphone input:focus {
+    border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
+
+.input-group-wrapper {
+    display: flex;
+    align-items: center;
+}
